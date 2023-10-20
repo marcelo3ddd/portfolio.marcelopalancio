@@ -13,7 +13,7 @@ body {
     height: 100vh;
 
     /* Cria um gradiente de cores de cima para baixo como plano de fundo */
-    background: linear-gradient(to bottom, #1d2b53, #7e2553, #ff5555);
+    background: linear-gradient(to bottom, #00b7ff, #ff0000, rgb(0, 26, 255));
 
     /* Define o tamanho de fundo para cobrir toda a área disponível */
     background-size: cover;
@@ -47,7 +47,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: white;
+    color: rgb(0, 81, 255);
     text-decoration: none;
 }
 
@@ -127,8 +127,8 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    color: white;
-    background-color: #800000;
+    color: rgb(255, 0, 0);
+    background-color: #00a2ff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,6 +141,6 @@ body {
 
 /* Estilo de link no rodapé */
 .rodape a:hover {
-    color: #FFA500;
+    color: #5900ff;
 }
 
