@@ -13,7 +13,7 @@ body {
     height: 100vh;
 
     /* Cria um gradiente de cores de cima para baixo como plano de fundo */
-    background: linear-gradient(to bottom, #1d2b53, #7e2553, #ff5555);
+    background: linear-gradient(to bottom, #263091, #ff0000, #ff0000);
 
     /* Define o tamanho de fundo para cobrir toda a área disponível */
     background-size: cover;
@@ -28,7 +28,7 @@ body {
     margin: 0;
 
     /* Define a cor do texto dentro do corpo como branco */
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 /* Espaçamento entre o cabeçalho (header) e o conteúdo principal (main) */
@@ -47,7 +47,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: white;
+    color: rgb(255, 0, 0);
     text-decoration: none;
 }
 
@@ -123,10 +123,10 @@ body {
 /* Estilização de cada item da galeria */
 .item {
     flex: 0 0 calc(33.33% - 20px); /* Define a largura dos itens, com margens entre eles */
-    background-color: linear-gradient(to bottom, #1d2b53, #7e2553, #ff5555); /* Cor de fundo dos itens */
+    background-color: linear-gradient(to bottom, #0059ff, #ff0000, #0011ff); /* Cor de fundo dos itens */
     padding: 10px;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave nos itens */
+    box-shadow: 0 2px 4px rgba(0, 174, 255, 0.1); /* Sombra suave nos itens */
     margin-bottom: 20px; /* Adiciona margem inferior para separar os itens */
 
     /* Centraliza os elementos verticalmente */
@@ -142,7 +142,7 @@ body {
     width: auto;
     height: auto;
     object-fit: cover; /* Garante que a imagem preencha o contêiner sem distorção */
-    border: 2px solid #000; /* Adicione uma borda de 2px sólida preta */
+    border: 2px solid #4400ff; /* Adicione uma borda de 2px sólida preta */
     transition: transform 0.2s ease-in-out; /* Efeito de transição suave ao passar o mouse */
 }
 
@@ -157,7 +157,7 @@ body {
     font-family: 'Krona One', sans-serif;
     margin-top: 10px; /* Espaço entre a imagem e o título */
     text-align: center; /* Centraliza o texto */
-    color: #000; /* Cor da fonte preta */
+    color: #2f00ff; /* Cor da fonte preta */
     margin-bottom: 20px; /* Adiciona margem inferior para separar os itens */
 }
 
@@ -170,8 +170,8 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    color: white;
-    background-color: #800000;
+    color: rgb(255, 0, 0);
+    background-color: #4400ff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -184,6 +184,6 @@ body {
 
 /* Estilo de link no rodapé */
 .rodape a:hover {
-    color: #FFA500;
+    color: #1100ff;
 }
 
