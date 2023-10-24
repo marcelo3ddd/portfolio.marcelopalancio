@@ -44,7 +44,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: rgb(255, 102, 0)55, 255, 255);
+    color: white;
     text-decoration: none;
 }
 
@@ -99,7 +99,7 @@ body {
     height: auto;
 
     /* Define o espaçamento entre os elementos filhos como 40px */
-    gap: 40px;
+    gap: 20px;
 
     /* Define a ordem do elemento como 2 na ordem de exibição */
     order: 2;
@@ -108,7 +108,18 @@ body {
 /* Estilos para elementos com a classe .apresentacao-conteudo-titulo */
 .apresentacao-conteudo-titulo {
     /* Define o tamanho da fonte como 36px */
-    font-size: 36px;
+    font-size: 50px;
+
+    /* Define a família de fontes como 'Krona One' com fallback para sans-serif */
+    font-family: 'Krona One', sans-serif;
+
+    /* Alinha o texto justificado */
+    text-align: center;
+}
+
+.apresentacao-conteudo-texto {
+    /* Define o tamanho da fonte como 36px */
+    font-size: 17px;
 
     /* Define a família de fontes como 'Krona One' com fallback para sans-serif */
     font-family: 'Krona One', sans-serif;
@@ -120,7 +131,7 @@ body {
 /* Estilos para elementos com a classe .apresentacao-conteudo-paragrafo */
 .apresentacao-conteudo-paragrafo {
     /* Define o tamanho da fonte como 24px */
-    font-size: 24px;
+    font-size: 40px;
 
     /* Define a família de fontes como 'Montserrat' com fallback para sans-serif */
     font-family: 'Montserrat', sans-serif;
@@ -328,6 +339,7 @@ body {
     text-transform: uppercase;
     position: relative;
     overflow: hidden;
+    margin-bottom: 30px;
 }
 
 .botao3::before {
